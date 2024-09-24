@@ -1,14 +1,58 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+    "orderrequest": {
+    "version": 1,
+    "documentheader": {
+    "loginid": "login",
+    "password": "password",
+    "company": "company code",
+    "timestamp": "2024-04-05T15:59:48Z"
+    },
+    "order": {
+    "orderheader": {
+    "ponumber": "PO2206-034",
+    "enduserpo": "",
+    "orderduedate": "2024-04-08",
+    "deliverycode": "01",
+    "deliverycharge": 5.99
+    },
+    "orderlines": {
+    "orderline": [
+    {
+    "delivery": {
+    "address": {
+    "#text": ".",
+    "companyname": "Asolvi",
+    "deliveryaddress1": "Swan House",
+    "deliveryaddress2": "Peregrine Business Park",
+    "deliveryaddress3": "Gomm Road",
+    "deliverytown": "High Wycombe",
+    "deliverypostalcode": "HP13 7DL",
+    "deliverycountry": "GB"
+    },
+    "contactdetails": {
+    "contactname": "",
+    "telephonenumber": "",
+    "email": ""
+    }
+    },
+    "productline": {
+    "sku": "51645AE",
+    "quantity": 1,
+    "price": 50.31,
+    "skudescription": "Magenta Toner",
+    "bidreference": ""
+    },
+    "equipmentdetails": {
+    "serialno": "353454ad3",
+    "assetno": "ABC123",
+    "location": "reception"
+    }
+    }
+    ]
+    },
+    "ordercomments": [
+    "comments",
+    "comments",
+    "comments"
+    ]}}
+   }
